@@ -1,0 +1,23 @@
+[package]
+name = "rustfmt2"
+version = "0.1.0"
+authors = ["Nick Cameron <ncameron@mozilla.com>"]
+description = "Tool to find and fix Rust formatting issues"
+repository = "https://github.com/rust-lang-nursery/rustfmt"
+readme = "README.md"
+license = "Apache-2.0/MIT"
+
+[dependencies]
+toml = "0.1"
+unicode-segmentation = "0.1"
+regex = "0.1"
+term = "0.4"
+strings = "0.0.1"
+diff = "0.1"
+syntex_syntax = "0.44"
+syntex_errors = "0.44"
+log = "0.3"
+env_logger = "0.3"
+getopts = "0.2"
+itertools = "0.4.15"
+multimap = "0.3"
